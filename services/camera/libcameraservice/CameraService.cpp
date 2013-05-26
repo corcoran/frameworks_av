@@ -87,7 +87,6 @@ static void htcCameraSwitch(int cameraId)
 }
 #endif
 
-
 // This is ugly and only safe if we never re-create the CameraService, but
 // should be ok for now.
 static CameraService *gCameraService;
